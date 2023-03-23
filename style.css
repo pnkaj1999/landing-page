@@ -1,0 +1,365 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+section
+{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,50,0.7)50%,rgba(4,9,50,0.7)50%),url(Assets/campus.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav
+{
+    display: flex;
+    padding: 2% 6%;
+}
+.header
+{
+    display: flex;
+}
+.header img
+{
+    height: 100px;
+}
+.nav-bar 
+{
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+    margin-left: 60%;
+   
+}
+.nav-bar ul li
+{
+    display: inline-block;
+    margin: 20px;
+    
+}
+.nav-bar ul li a 
+{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+.nav-bar .fa
+{
+    display: none;
+}
+.nav-bar ul li::after
+{
+    content: ' ';
+    width: 0%;
+    height: 2px;
+    display: block;
+    margin: auto;
+    transition: 0.8s;
+    background-color: red;
+}
+.nav-bar li:hover::after
+{
+    width: 100%;
+}
+.text
+{
+    width: 100%;
+    margin-top: 18%;
+    text-align: center;
+    color: aliceblue;
+    box-sizing: content-box;
+}
+p
+{
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.hero-btn
+{
+    text-align: center;
+    margin-top: 1%;
+}
+.hero-btn a
+{
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    padding: 2px 5px;
+}
+.hero-btn a:hover
+{
+    background-color: red;
+    transition: 0.5s;
+}
+.ngt ul li::after
+{
+    content: ' ';
+    width: 0px;
+    height: 2px;
+    background-color: yellowgreen;
+    display: block;
+    margin: auto;
+    transition: 0.8s;
+}
+li:hover::after
+{
+    width: 100%;
+}
+.course
+{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    color: slateblue;
+    cursor: pointer;
+}
+.course h3
+{
+    margin-top: 3%;
+}
+.row
+{
+    width: 100%;
+    display: flex;
+    margin-top: 2%;
+    margin: auto;
+  
+}
+
+.coruse-col
+{
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: space-between;
+    margin: 2%;
+    padding: 25px;
+    background-color: #fff3f3;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0;
+    flex-basis: 31%;
+}
+.coruse-col
+{
+    flex-basis: 31%;
+    overflow: hidden;
+    position: relative;
+    transition: 0.8s;
+}
+.coruse-col h3
+{
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: slateblue;
+}
+
+.coruse-col p
+{
+    font-weight: 300;
+    font-size: 14px;
+}
+.coruse-col:hover
+{
+    box-shadow: 0 0 20px 0 rgba(130, 22, 151, 0.7);
+}
+.branch
+{
+    text-align: center;
+    top:5%;
+    cursor: pointer;
+}
+.branch h3
+{
+    color: slateblue;
+}
+.row1
+{
+    width: 100%;
+    display: flex;
+    
+}
+.place
+{
+    position: relative;
+    margin: auto;
+}
+
+.place img
+{
+    margin: auto;
+    width: 580px;
+    height: 650PX;
+    border-radius: 20px;
+    border-radius: 80px;
+}
+.layer
+{
+   background: transparent;
+   position: absolute;
+   height: 650PX;
+   width: 580px;
+   border-radius: 80px;
+   top: 0%;
+   left: 0%;
+   transition: 0.8s;
+}
+.layer:hover
+{
+    background-color: rgba(153, 19, 19, 0.521);
+}
+.layer h3
+{
+  width: 40%;
+  font-weight: bold;
+  color: white;
+  bottom: 10%;
+  margin: auto;
+  margin-left: 60%;
+  transform: translateX(-50%);
+  position: absolute;
+  visibility: hidden;
+  transition: 0.8s;
+}
+.layer:hover h3
+{
+    bottom: 40%;
+    visibility: visible;
+}
+
+.par
+{
+    display: flex;
+    background-color: #fff3f3;
+    border-radius: 10px;
+    padding: 10px 15px;
+    flex-basis: 31%;
+    margin-top: 3%;
+    box-sizing: border-box;
+}
+.row2
+{
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+.faci
+{
+    text-align: center;
+    margin-top: 3%;
+    color: slateblue;
+    font-weight: 500;
+    font-size: 25px;
+    cursor: pointer;
+}
+.faci-col
+{
+    width: 80%;
+    margin-top: 3%;
+    box-sizing: border-box;
+}
+.faci-col img
+{
+    width: 80%;
+    border-radius: 15px;
+    height: 250px;
+    margin-left: 10%;
+}
+.par
+{
+    margin-top: 3%;
+    width: 80%;
+    margin: auto;
+    padding: 40px 60px;
+}
+.review
+{
+    text-align: center;
+    width: 100%;
+    margin-top: 3%;
+}
+.review h3
+{
+    font-size: 32px;
+    color: slateblue;
+    cursor:pointer;
+}
+.row4
+{
+    width: 100%;
+    display: flex;
+}
+.rec
+{
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    color: slateblue;
+    cursor: pointer;
+}
+.rev
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.rev1
+{
+    width: 40%;
+    display: flex;
+    padding: 15px 20px;
+    background-color: #fff3f3;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 3%;
+    flex-basis: 41%;
+}
+.rev1 img
+{
+    border-radius: 50%;
+    height: 90px;
+    width: 50px;
+    margin-top: 5%;
+}
+
+.comm
+{
+    margin-top: 5%;
+    margin-left: 3%;
+}
+.fa{
+    color: slateblue;
+}
+.info
+{
+    width: 80%;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.info h1 a
+{
+    color: slateblue;
+    text-decoration: none;
+}
+.info p{
+    font-weight: 100;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.footer
+{
+    height: 120px;
+    background-color: rgba(105, 90, 205, 0.315);
+    margin-top: 3%;
+    text-align: center;
+}
+.footer h3
+{ 
+    padding: 10px;
+}
+
