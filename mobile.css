@@ -1,0 +1,55 @@
+@media(max-width:480px)
+{
+    *
+{
+    margin: 0%;
+    padding: 0%;
+}
+section
+{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,50,0.7)50%,rgba(4,9,50,0.7)50%),url(Assets/campus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav
+{
+    display: block;
+}
+.header
+{
+    display: block;
+    height: auto;
+}
+.header img
+{
+    height: 100px;
+}
+.nav-bar 
+{
+    align-items: center;
+    margin: auto;
+}
+.nav-bar ul li
+{
+    display: block;
+    margin: 20px;
+    top: 2px;
+    
+}
+.row
+{
+    width: 100%;
+    display: block;
+    margin-top: 2%;
+}
+.place img
+{
+    height: 300px;
+    width: 240px;
+    justify-content: space-between;
+    margin: 50px;
+    border-radius: 10px;
+}
+}
